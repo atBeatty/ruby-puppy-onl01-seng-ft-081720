@@ -15,7 +15,7 @@ class Dog
   end
   def print_all
     @@all.each do |dog|
-      "#{dog}\n"
+      puts "#{dog}\n"
     end
   end
 
