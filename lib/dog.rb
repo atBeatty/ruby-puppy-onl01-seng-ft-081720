@@ -13,6 +13,12 @@ class Dog
   def self.clear_all
     @@all.clear
   end
+  def print_all
+    @@all.each do |dog|
+      print "#{dog} "\n
+    end
+  end
+
 
 
 
