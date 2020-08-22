@@ -10,7 +10,7 @@ class Dog
     @@all
   end
   def self.clear_all
-    @@all.clear_all!
+    @@all.clear_all
   end
 
 
