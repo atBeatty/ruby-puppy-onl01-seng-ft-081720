@@ -15,7 +15,7 @@ class Dog
   end
   def print_all
     @@all.each do |dog|
-      print "#{dog}\n"
+      "#{dog}\n"
     end
   end
 
