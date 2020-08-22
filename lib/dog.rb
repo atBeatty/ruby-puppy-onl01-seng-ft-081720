@@ -13,7 +13,7 @@ class Dog
   def self.clear_all
     @@all.clear
   end
-  def print_all
+  def self.print_all
     @@all.each do |dog|
       puts "#{dog}\n"
     end
